@@ -1,2 +1,5 @@
 pkg/
 src/
+*.tgz
+*.xz
+*.sig
