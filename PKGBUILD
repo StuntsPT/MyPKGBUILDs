@@ -13,11 +13,8 @@ md5sums=('ce39fde6778dfdf9f20442a573c685db')
 
 build() {
   cd "${srcdir}/dist"
-  #sed -i 's/FC = g77/FC = gfortran/g' makefile
-  #sed -i 's/LIBS =  -lg2c/LIBS =  -lgfortran/g' makefile 
   make -f makefile
   mkdir ${pkgdir}/usr
   mkdir ${pkgdir}/usr/bin
   cp r8s ${pkgdir}/usr/bin/
-#  make DESTDIR="${pkgdir}" install || return 1
 }
