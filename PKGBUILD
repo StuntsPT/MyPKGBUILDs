@@ -1,7 +1,7 @@
 # Author:  Stunts <f.pinamartins@gmail.com>
 
 pkgname=r8s
-pkgver=1.8
+pkgver=1.80
 pkgrel=1
 pkgdesc="Analysis of rates ("r8s") of evolution"
 arch=(i686 x86_64)
