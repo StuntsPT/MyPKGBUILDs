@@ -26,8 +26,8 @@ package() {
 	export oobasis=/usr/lib/libreoffice/program
   elif [[ -d /opt/openoffice.org3 ]]; then
 	export oopath=/opt/openoffice.org3/program
-	export ooure=/opt/openoffice.org3/basis-link/ure-link/lib
-	export oobasis=/opt/openoffice.org3/basis-link/program
+	export ooure=/opt/openoffice.org3/program
+	export oobasis=/opt/openoffice.org3/program
   fi
 
   make -f Setup/Makefile DESTDIR="$pkgdir/usr" python=/usr/bin/python2 \
