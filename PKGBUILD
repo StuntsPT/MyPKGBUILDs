@@ -13,11 +13,6 @@ makedepends=('svn')
 source=('svn+http://beagle-lib.googlecode.com/svn/trunk/')
 md5sums=('SKIP')
 
-#_svnmod="beagle-lib"
-
-#Beagle won't support being built with multiple cores!!
-#unset MAKEFLAGS
-
 pkgver() {
   cd "${SRCDEST}/trunk"
   svnversion | tr -d [A-z]
