@@ -2,7 +2,7 @@
 
 pkgname=beagle-lib
 pkgver=1094
-pkgrel=1
+pkgrel=2
 pkgdesc="A general purpose library for evaluating the likelihood of sequence evolution on trees."
 arch=('i686' 'x86_64')
 url="http://code.google.com/p/beagle-lib/"
@@ -28,7 +28,7 @@ pkgver() {
 build() {
   cd ${srcdir}/trunk
   ./autogen.sh
-  ./configure --with-cuda=/opt/cuda-toolkit/ --prefix=/usr
+  ./configure --with-cuda=/opt/cuda/ --prefix=/usr
   make
 }
 
