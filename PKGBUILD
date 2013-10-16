@@ -1,8 +1,8 @@
 # Original: Abhishek Dasgupta <abhidg@gmail.com>
 # Maintainer: Stunts <f.pinamartins@gmail.com>
 pkgname=mrbayes
-pkgver=3.2.1
-pkgrel=2
+pkgver=3.2.2
+pkgrel=1
 pkgdesc="A program for the Bayesian estimation of phylogeny"
 arch=('i686' 'x86_64')
 license=('GPL')
@@ -10,13 +10,13 @@ url="http://mrbayes.csit.fsu.edu"
 depends=('readline')
 optdepends=('beagle-lib: for using GPU calculations among other enhancements - rebuild package after installing this dep')
 source=(http://downloads.sourceforge.net/mrbayes/${pkgname}-${pkgver}.tar.gz)
-md5sums=('477c9f39126db360f92c5b6a7c9cca95')
+md5sums=('3f9fc9186ef4200e5fcb2eac0abbd6ba')
 
 build() {
   #MrBayes requires specific LDFLAGS and CFLAGS specified in the makefile. Thus we unset our own.
-  unset LDFLAGS
-  unset CFLAGS
-  unset CCFLAGS
+  #unset LDFLAGS
+  #unset CFLAGS
+  #unset CCFLAGS
 
   cd ${srcdir}/${pkgname}_${pkgver}/src
   autoconf
