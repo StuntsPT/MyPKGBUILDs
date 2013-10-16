@@ -23,7 +23,7 @@ build() {
   #Build with beagle-lib support if available:
   if [ -f /usr/lib/libhmsbeagle.so ]
   then
-    msg "beagle-lib found! Buildinf with CUDA support."
+    msg "beagle-lib found! Building with CUDA support."
     ./configure --with-beagle=/usr
   else
     msg "beagle-lib not found! Building without CUDA support."
