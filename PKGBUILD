@@ -8,7 +8,7 @@ pkgdesc="A system tray icon for controlling radeon cards' power states"
 arch=('any')
 url="https://github.com/StuntsPT/Radeon-tray/"
 license=('GPL3')
-depends=('python' 'python-pyqt4' 'python-pyzmq>=13.0' 'python-pyzmq')
+depends=('python' 'python-pyqt4' 'python-pyzmq>=13.0' 'python-setuptools')
 source=("https://github.com/StuntsPT/Radeon-tray/archive/v${pkgver}.tar.gz")
 md5sums=('d1e3a06c6d96425fd59660525666cac6')
 
