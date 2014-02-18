@@ -1,0 +1,842 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# object: http://ogp.me/ns/object# article: http://ogp.me/ns/article# profile: http://ogp.me/ns/profile#">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>lwfinger/rtl8723au · GitHub</title>
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub" />
+    <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub" />
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-144.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144.png" />
+    <meta property="fb:app_id" content="1401488693436528"/>
+
+      <meta content="@github" name="twitter:site" /><meta content="summary" name="twitter:card" /><meta content="lwfinger/rtl8723au" name="twitter:title" /><meta content="rtl8723au - Repo for RTL8723AU code before Linux Kernel commit" name="twitter:description" /><meta content="https://1.gravatar.com/avatar/a7bcbbdadbe98519ce41f733dc441577?d=https%3A%2F%2Fidenticons.github.com%2F10aabfc88bd59c72453509fed80545f5.png&amp;r=x&amp;s=400" name="twitter:image:src" />
+<meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="https://1.gravatar.com/avatar/a7bcbbdadbe98519ce41f733dc441577?d=https%3A%2F%2Fidenticons.github.com%2F10aabfc88bd59c72453509fed80545f5.png&amp;r=x&amp;s=400" property="og:image" /><meta content="lwfinger/rtl8723au" property="og:title" /><meta content="https://github.com/lwfinger/rtl8723au" property="og:url" /><meta content="rtl8723au - Repo for RTL8723AU code before Linux Kernel commit" property="og:description" />
+
+    <meta name="hostname" content="github-fe117-cp1-prd.iad.github.net">
+    <meta name="ruby" content="ruby 2.1.0p0-github-tcmalloc (87c9373a41) [x86_64-linux]">
+    <link rel="assets" href="https://github.global.ssl.fastly.net/">
+    <link rel="conduit-xhr" href="https://ghconduit.com:25035/">
+    <link rel="xhr-socket" href="/_sockets" />
+
+
+    <meta name="msapplication-TileImage" content="/windows-tile.png" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="selected-link" value="repo_source" data-pjax-transient />
+    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="5154BB5F:44AB:1350F:5303EEEB" name="octolytics-dimension-request_id" />
+    
+
+    
+    
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+
+    <meta content="authenticity_token" name="csrf-param" />
+<meta content="rih+SXUTwMFhTpg5oeNXKDyg1rnqrj2NxNLZ2SbW57o=" name="csrf-token" />
+
+    <link href="https://github.global.ssl.fastly.net/assets/github-92740315f896acc5f11ea2462583cb3fa98aae00.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="https://github.global.ssl.fastly.net/assets/github2-f03e0c406d13bdfac81e36ac7174d6dde953b9c3.css" media="all" rel="stylesheet" type="text/css" />
+    
+    
+
+
+      <script src="https://github.global.ssl.fastly.net/assets/frameworks-693e11922dcacc3a7408a911fe1647da4febd3bd.js" type="text/javascript"></script>
+      <script async="async" src="https://github.global.ssl.fastly.net/assets/github-719112174738f20cb5c6a199d31c45ab633e323b.js" type="text/javascript"></script>
+      
+      <meta http-equiv="x-pjax-version" content="ca175f89b6adf9404763653d038e945b">
+
+      
+  <meta name="description" content="rtl8723au - Repo for RTL8723AU code before Linux Kernel commit" />
+
+  <meta content="4006501" name="octolytics-dimension-user_id" /><meta content="lwfinger" name="octolytics-dimension-user_login" /><meta content="9100901" name="octolytics-dimension-repository_id" /><meta content="lwfinger/rtl8723au" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="9100901" name="octolytics-dimension-repository_network_root_id" /><meta content="lwfinger/rtl8723au" name="octolytics-dimension-repository_network_root_nwo" />
+  <link href="https://github.com/lwfinger/rtl8723au/commits/master.atom" rel="alternate" title="Recent Commits to rtl8723au:master" type="application/atom+xml" />
+
+  </head>
+
+
+  <body class="logged_out  env-production  vis-public tipsy-tooltips">
+    <div class="wrapper">
+      
+      
+      
+      
+
+
+      
+      <div class="header header-logged-out">
+  <div class="container clearfix">
+
+    <a class="header-logo-wordmark" href="https://github.com/">
+      <span class="mega-octicon octicon-logo-github"></span>
+    </a>
+
+    <div class="header-actions">
+        <a class="button primary" href="/join">Sign up</a>
+      <a class="button signin" href="/login?return_to=%2Flwfinger%2Frtl8723au">Sign in</a>
+    </div>
+
+    <div class="command-bar js-command-bar  in-repository">
+
+      <ul class="top-nav">
+          <li class="explore"><a href="/explore">Explore</a></li>
+        <li class="features"><a href="/features">Features</a></li>
+          <li class="enterprise"><a href="https://enterprise.github.com/">Enterprise</a></li>
+          <li class="blog"><a href="/blog">Blog</a></li>
+      </ul>
+        <form accept-charset="UTF-8" action="/search" class="command-bar-form" id="top_search_form" method="get">
+
+<input type="text" data-hotkey="/ s" name="q" id="js-command-bar-field" placeholder="Search or type a command" tabindex="1" autocapitalize="off"
+    
+    
+      data-repo="lwfinger/rtl8723au"
+      data-branch="master"
+      data-sha="ad2a892a22ba632e99f3517f3c3fa05514d3abde"
+  >
+
+    <input type="hidden" name="nwo" value="lwfinger/rtl8723au" />
+
+    <div class="select-menu js-menu-container js-select-menu search-context-select-menu">
+      <span class="minibutton select-menu-button js-menu-target">
+        <span class="js-select-button">This repository</span>
+      </span>
+
+      <div class="select-menu-modal-holder js-menu-content js-navigation-container">
+        <div class="select-menu-modal">
+
+          <div class="select-menu-item js-navigation-item js-this-repository-navigation-item selected">
+            <span class="select-menu-item-icon octicon octicon-check"></span>
+            <input type="radio" class="js-search-this-repository" name="search_target" value="repository" checked="checked" />
+            <div class="select-menu-item-text js-select-button-text">This repository</div>
+          </div> <!-- /.select-menu-item -->
+
+          <div class="select-menu-item js-navigation-item js-all-repositories-navigation-item">
+            <span class="select-menu-item-icon octicon octicon-check"></span>
+            <input type="radio" name="search_target" value="global" />
+            <div class="select-menu-item-text js-select-button-text">All repositories</div>
+          </div> <!-- /.select-menu-item -->
+
+        </div>
+      </div>
+    </div>
+
+  <span class="octicon help tooltipped downwards" aria-label="Show command bar help">
+    <span class="octicon octicon-question"></span>
+  </span>
+
+
+  <input type="hidden" name="ref" value="cmdform">
+
+</form>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+          <div class="site" itemscope itemtype="http://schema.org/WebPage">
+    
+    <div class="pagehead repohead instapaper_ignore readability-menu">
+      <div class="container">
+        
+
+<ul class="pagehead-actions">
+
+
+  <li>
+    <a href="/login?return_to=%2Flwfinger%2Frtl8723au"
+    class="minibutton with-count js-toggler-target star-button tooltipped upwards"
+    aria-label="You must be signed in to use this feature" rel="nofollow">
+    <span class="octicon octicon-star"></span>Star
+  </a>
+
+    <a class="social-count js-social-count" href="/lwfinger/rtl8723au/stargazers">
+      50
+    </a>
+
+  </li>
+
+    <li>
+      <a href="/login?return_to=%2Flwfinger%2Frtl8723au"
+        class="minibutton with-count js-toggler-target fork-button tooltipped upwards"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <span class="octicon octicon-git-branch"></span>Fork
+      </a>
+      <a href="/lwfinger/rtl8723au/network" class="social-count">
+        15
+      </a>
+    </li>
+</ul>
+
+        <h1 itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="entry-title public">
+          <span class="repo-label"><span>public</span></span>
+          <span class="mega-octicon octicon-repo"></span>
+          <span class="author">
+            <a href="/lwfinger" class="url fn" itemprop="url" rel="author"><span itemprop="title">lwfinger</span></a>
+          </span>
+          <span class="repohead-name-divider">/</span>
+          <strong><a href="/lwfinger/rtl8723au" class="js-current-repository js-repo-home-link">rtl8723au</a></strong>
+
+          <span class="page-context-loader">
+            <img alt="Octocat-spinner-32" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+          </span>
+
+        </h1>
+      </div><!-- /.container -->
+    </div><!-- /.repohead -->
+
+    <div class="container">
+      
+
+      <div class="repository-with-sidebar repo-container new-discussion-timeline js-new-discussion-timeline with-full-navigation ">
+        <div class="repository-sidebar clearfix">
+            
+
+<div class="sunken-menu vertical-right repo-nav js-repo-nav js-repository-container-pjax js-octicon-loaders">
+  <div class="sunken-menu-contents">
+    <ul class="sunken-menu-group">
+      <li class="tooltipped leftwards" aria-label="Code">
+        <a href="/lwfinger/rtl8723au" aria-label="Code" class="selected js-selected-navigation-item sunken-menu-item" data-gotokey="c" data-pjax="true" data-selected-links="repo_source repo_downloads repo_commits repo_tags repo_branches /lwfinger/rtl8723au">
+          <span class="octicon octicon-code"></span> <span class="full-word">Code</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+        <li class="tooltipped leftwards" aria-label="Issues">
+          <a href="/lwfinger/rtl8723au/issues" aria-label="Issues" class="js-selected-navigation-item sunken-menu-item js-disable-pjax" data-gotokey="i" data-selected-links="repo_issues /lwfinger/rtl8723au/issues">
+            <span class="octicon octicon-issue-opened"></span> <span class="full-word">Issues</span>
+            <span class='counter'>13</span>
+            <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>        </li>
+
+      <li class="tooltipped leftwards" aria-label="Pull Requests">
+        <a href="/lwfinger/rtl8723au/pulls" aria-label="Pull Requests" class="js-selected-navigation-item sunken-menu-item js-disable-pjax" data-gotokey="p" data-selected-links="repo_pulls /lwfinger/rtl8723au/pulls">
+            <span class="octicon octicon-git-pull-request"></span> <span class="full-word">Pull Requests</span>
+            <span class='counter'>0</span>
+            <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+
+    </ul>
+    <div class="sunken-menu-separator"></div>
+    <ul class="sunken-menu-group">
+
+      <li class="tooltipped leftwards" aria-label="Pulse">
+        <a href="/lwfinger/rtl8723au/pulse" aria-label="Pulse" class="js-selected-navigation-item sunken-menu-item" data-pjax="true" data-selected-links="pulse /lwfinger/rtl8723au/pulse">
+          <span class="octicon octicon-pulse"></span> <span class="full-word">Pulse</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+      <li class="tooltipped leftwards" aria-label="Graphs">
+        <a href="/lwfinger/rtl8723au/graphs" aria-label="Graphs" class="js-selected-navigation-item sunken-menu-item" data-pjax="true" data-selected-links="repo_graphs repo_contributors /lwfinger/rtl8723au/graphs">
+          <span class="octicon octicon-graph"></span> <span class="full-word">Graphs</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+      <li class="tooltipped leftwards" aria-label="Network">
+        <a href="/lwfinger/rtl8723au/network" aria-label="Network" class="js-selected-navigation-item sunken-menu-item js-disable-pjax" data-selected-links="repo_network /lwfinger/rtl8723au/network">
+          <span class="octicon octicon-git-branch"></span> <span class="full-word">Network</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+    </ul>
+
+
+  </div>
+</div>
+
+              <div class="only-with-full-nav">
+                
+
+  
+
+<div class="clone-url open"
+  data-protocol-type="http"
+  data-url="/users/set_protocol?protocol_selector=http&amp;protocol_type=clone">
+  <h3><strong>HTTPS</strong> clone URL</h3>
+  <div class="clone-url-box">
+    <input type="text" class="clone js-url-field"
+           value="https://github.com/lwfinger/rtl8723au.git" readonly="readonly">
+
+    <span class="js-zeroclipboard url-box-clippy minibutton zeroclipboard-button" data-clipboard-text="https://github.com/lwfinger/rtl8723au.git" data-copied-hint="copied!" title="copy to clipboard"><span class="octicon octicon-clippy"></span></span>
+  </div>
+</div>
+
+  
+
+<div class="clone-url "
+  data-protocol-type="subversion"
+  data-url="/users/set_protocol?protocol_selector=subversion&amp;protocol_type=clone">
+  <h3><strong>Subversion</strong> checkout URL</h3>
+  <div class="clone-url-box">
+    <input type="text" class="clone js-url-field"
+           value="https://github.com/lwfinger/rtl8723au" readonly="readonly">
+
+    <span class="js-zeroclipboard url-box-clippy minibutton zeroclipboard-button" data-clipboard-text="https://github.com/lwfinger/rtl8723au" data-copied-hint="copied!" title="copy to clipboard"><span class="octicon octicon-clippy"></span></span>
+  </div>
+</div>
+
+
+<p class="clone-options">You can clone with
+      <a href="#" class="js-clone-selector" data-protocol="http">HTTPS</a>,
+      or <a href="#" class="js-clone-selector" data-protocol="subversion">Subversion</a>.
+  <span class="octicon help tooltipped upwards" aria-label="Get help on which URL is right for you.">
+    <a href="https://help.github.com/articles/which-remote-url-should-i-use">
+    <span class="octicon octicon-question"></span>
+    </a>
+  </span>
+</p>
+
+
+
+                <a href="/lwfinger/rtl8723au/archive/master.zip"
+                   class="minibutton sidebar-button"
+                   title="Download this repository as a zip file"
+                   rel="nofollow">
+                  <span class="octicon octicon-cloud-download"></span>
+                  Download ZIP
+                </a>
+              </div>
+        </div><!-- /.repository-sidebar -->
+
+        <div id="js-repo-pjax-container" class="repository-content context-loader-container" data-pjax-container>
+          
+
+<span id="js-show-full-navigation"></span>
+
+<div class="repository-meta js-details-container ">
+    <div class="repository-description js-details-show">
+      <p>Repo for RTL8723AU code before Linux Kernel commit</p>
+    </div>
+
+
+
+</div>
+
+<div class="capped-box overall-summary ">
+
+  <div class="stats-switcher-viewport js-stats-switcher-viewport">
+
+    <ul class="numbers-summary">
+      <li class="commits">
+        <a data-pjax href="/lwfinger/rtl8723au/commits/master">
+            <span class="num">
+              <span class="octicon octicon-history"></span>
+              228
+            </span>
+            commits
+        </a>
+      </li>
+      <li>
+        <a data-pjax href="/lwfinger/rtl8723au/branches">
+          <span class="num">
+            <span class="octicon octicon-git-branch"></span>
+            2
+          </span>
+          branches
+        </a>
+      </li>
+
+      <li>
+        <a data-pjax href="/lwfinger/rtl8723au/releases">
+          <span class="num">
+            <span class="octicon octicon-tag"></span>
+            0
+          </span>
+          releases
+        </a>
+      </li>
+
+      <li>
+        
+  <a href="/lwfinger/rtl8723au/graphs/contributors">
+    <span class="num">
+      <span class="octicon octicon-organization"></span>
+      3
+    </span>
+    contributors
+  </a>
+      </li>
+    </ul>
+
+      <div class="repository-lang-stats">
+        <ol class="repository-lang-stats-numbers">
+          <li>
+              <a href="/lwfinger/rtl8723au/search?l=c">
+                <span class="color-block language-color" style="background-color:#555;"></span>
+                <span class="lang">C</span>
+                <span class="percent">96.3%</span>
+              </a>
+          </li>
+          <li>
+              <a href="/lwfinger/rtl8723au/search?l=c%2B%2B">
+                <span class="color-block language-color" style="background-color:#f34b7d;"></span>
+                <span class="lang">C++</span>
+                <span class="percent">3.7%</span>
+              </a>
+          </li>
+        </ol>
+      </div>
+  </div>
+
+</div>
+
+  <div class="tooltipped downwards" aria-label="Show language statistics">
+    <a href="#"
+     class="repository-lang-stats-graph js-toggle-lang-stats"
+     style="background-color:#f34b7d">
+  <span class="language-color" style="width:96.3%; background-color:#555;" itemprop="keywords">C</span><span class="language-color" style="width:3.7%; background-color:#f34b7d;" itemprop="keywords">C++</span>
+    </a>
+  </div>
+
+
+
+<div class="file-navigation in-mid-page">
+    <a href="/lwfinger/rtl8723au/compare" aria-label="Compare, review, create a pull request" class="minibutton compact primary tooltipped downwards" aria-label="Compare &amp; review" data-pjax>
+      <span class="octicon octicon-git-compare"></span>
+    </a>
+
+  
+
+<div class="select-menu js-menu-container js-select-menu" >
+  <span class="minibutton select-menu-button js-menu-target" data-hotkey="w"
+    data-master-branch="master"
+    data-ref="master"
+    role="button" aria-label="Switch branches or tags" tabindex="0">
+    <span class="octicon octicon-git-branch"></span>
+    <i>branch:</i>
+    <span class="js-select-button">master</span>
+  </span>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax>
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <span class="select-menu-title">Switch branches/tags</span>
+        <span class="octicon octicon-remove-close js-menu-close"></span>
+      </div> <!-- /.select-menu-header -->
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" class="js-select-menu-tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" class="js-select-menu-tab">Tags</a>
+            </li>
+          </ul>
+        </div><!-- /.select-menu-tabs -->
+      </div><!-- /.select-menu-filters -->
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/lwfinger/rtl8723au/tree/kernel_version"
+                 data-name="kernel_version"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="kernel_version">kernel_version</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item selected">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/lwfinger/rtl8723au/tree/master"
+                 data-name="master"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="master">master</a>
+            </div> <!-- /.select-menu-item -->
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div> <!-- /.select-menu-list -->
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div> <!-- /.select-menu-list -->
+
+    </div> <!-- /.select-menu-modal -->
+  </div> <!-- /.select-menu-modal-holder -->
+</div> <!-- /.select-menu -->
+
+
+  <div class="breadcrumb"><span class='repo-root js-repo-root'><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/lwfinger/rtl8723au" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">rtl8723au</span></a></span></span><span class="separator"> / </span><form action="/login?return_to=%2Flwfinger%2Frtl8723au" aria-label="Sign in to make or propose changes" class="js-new-blob-form tooltipped rightwards new-file-link" method="post"><span aria-label="Sign in to make or propose changes" class="js-new-blob-submit octicon octicon-file-add" data-test-id="create-new-git-file" role="button"></span></form></div>
+</div>
+
+
+
+<a href="/lwfinger/rtl8723au/find/master"
+  data-hotkey="t" class="js-show-file-finder" style="display:none" data-pjax>Show File Finder</a>
+<div class="bubble files-bubble">
+
+  
+  <div class="commit commit-tease js-details-container" >
+    <p class="commit-title ">
+        <a href="/lwfinger/rtl8723au/commit/a1c3032d930e2a506930d4b53913a96fee980fdc" class="message" data-pjax="true" title="rtl8723au: Fix build problem with dkms
+
+It has been reported that under Ubuntu 13.10 (at least), the 8723au module
+won&#39;t auto-build correctly with new kernels. The error can be seen explicitly
+with dkms status, which gives:
+dkms.conf: Error! No &#39;BUILT_MODULE_NAME&#39; directive
+
+Making BUILT_MODULE_NAME the same as BUILD_MODULE_NAME fixes the problem.
+
+Signed-off-by: Larry Finger &lt;Larry.Finger@lwfinger.net&gt;">rtl8723au: Fix build problem with dkms</a>
+        <span class="hidden-text-expander inline"><a href="#" class="js-details-target">…</a></span>
+    </p>
+      <div class="commit-desc"><pre>It has been reported that under Ubuntu 13.10 (at least), the 8723au module
+won't auto-build correctly with new kernels. The error can be seen explicitly
+with dkms status, which gives:
+dkms.conf: Error! No 'BUILT_MODULE_NAME' directive
+
+Making BUILT_MODULE_NAME the same as BUILD_MODULE_NAME fixes the problem.
+
+Signed-off-by: Larry Finger &lt;Larry.Finger@lwfinger.net&gt;</pre></div>
+    <div class="commit-meta">
+      <span class="js-zeroclipboard zeroclipboard-link" data-clipboard-text="a1c3032d930e2a506930d4b53913a96fee980fdc" data-copied-hint="copied!" title="Copy SHA"><span class="octicon octicon-clippy"></span></span>
+      <a href="/lwfinger/rtl8723au/commit/a1c3032d930e2a506930d4b53913a96fee980fdc" class="sha-block" data-pjax>latest commit <span class="sha">a1c3032d93</span></a>
+
+      <div class="authorship">
+        <img alt="lwfinger" class="gravatar js-avatar" data-user="4006501" height="20" src="https://2.gravatar.com/avatar/a7bcbbdadbe98519ce41f733dc441577?d=https%3A%2F%2Fidenticons.github.com%2F10aabfc88bd59c72453509fed80545f5.png&amp;r=x&amp;s=140" width="20" />
+        <span class="author-name"><a href="/lwfinger" data-skip-pjax="true" rel="author">lwfinger</a></span>
+        authored <time class="js-relative-date updated" data-title-format="YYYY-MM-DD HH:mm:ss" datetime="2014-02-02T22:12:35-08:00" title="2014-02-02 22:12:35">February 02, 2014</time>
+
+      </div>
+    </div>
+  </div>
+
+  <table class="files" data-pjax>
+
+    
+<tbody class=""
+  data-url="/lwfinger/rtl8723au/file-list/master">
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-directory"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/lwfinger/rtl8723au/tree/master/core" class="js-directory-link" id="a74ad8dfacd4f985eb3977517615ce25-c11b0e4f3aa7957d1e9439ff968fa2964a49383c" title="core">core</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/lwfinger/rtl8723au/commit/d1a70f32dd661ecf30d2e48633a48ce17f866253" class="message" data-pjax="true" title="rtl8723au: Fix Smatch warnings in core/rtw_xmit.c
+
+Smatch reports the following:
+
+  CHECK   /home/finger/rtl8723au/core/rtw_xmit.c
+/home/finger/rtl8723au/core/rtw_xmit.c:2068 rtw_alloc_hwxmits() error: buffer overflow &#39;hwxmits&#39; 4 &lt;= 4
+
+This results from an off-by-one error.
+
+Signed-off-by: Larry Finger &lt;Larry.Finger@lwfinger.net&gt;">rtl8723au: Fix Smatch warnings in core/rtw_xmit.c</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" data-title-format="YYYY-MM-DD HH:mm:ss" datetime="2014-01-09T13:56:50-08:00" title="2014-01-09 13:56:50">January 09, 2014</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-directory"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/lwfinger/rtl8723au/tree/master/hal" class="js-directory-link" id="cde9e8dec3ca8de88aa6cf61c1c0252c-5929fa8081c18dd3a81a6b21cbc33fcb07a10627" title="hal">hal</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/lwfinger/rtl8723au/commit/b0a2edd299a92941fd29234cb79b70c82eb20129" class="message" data-pjax="true" title="Remove gross struct typedef abuse
+
+Signed-off-by: Jes Sorensen &lt;Jes.Sorensen@redhat.com&gt;">Remove gross struct typedef abuse</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" data-title-format="YYYY-MM-DD HH:mm:ss" datetime="2013-12-09T08:32:09-08:00" title="2013-12-09 08:32:09">December 09, 2013</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-directory"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/lwfinger/rtl8723au/tree/master/include" class="js-directory-link" id="d436eb0fd9de10b54a828ce6435f7e81-0eb3020d09fd2fba1215c19b72f7a36820720905" title="include">include</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/lwfinger/rtl8723au/commit/eb298868662de5a1c4bd1bea93ecdd5a21d04e9e" class="message" data-pjax="true" title="rtl8723au: Fix Smatch warnings in hal/rtl8723a_bt-coexist.c
+
+Smatch lists the following:
+
+ CHECK   /home/finger/rtl8723au/hal/rtl8723a_bt-coexist.c
+/home/finger/rtl8723au/hal/rtl8723a_bt-coexist.c:1875 bthci_BuildLogicalLink() warn: buffer overflow &#39;pHciCmd-&gt;Data&#39; 2 &lt;= 17
+/home/finger/rtl8723au/hal/rtl8723a_bt-coexist.c:2626 bthci_CmdEnhancedFlush() error: buffer overflow &#39;pHciCmd-&gt;Data&#39; 2 &lt;= 2
+/home/finger/rtl8723au/hal/rtl8723a_bt-coexist.c:2879 bthci_CmdWriteLocationData() error: buffer overflow &#39;pHciCmd-&gt;Data&#39; 2 &lt;= 3
+/home/finger/rtl8723au/hal/rtl8723a_bt-coexist.c:2880 bthci_CmdWriteLocationData() error: buffer overflow &#39;pHciCmd-&gt;Data&#39; 2 &lt;= 4
+/home/finger/rtl8723au/hal/rtl8723a_bt-coexist.c:3897 bthci_CmdFlowSpecModify() warn: buffer overflow &#39;pHciCmd-&gt;Data&#39; 2 &lt;= 2
+/home/finger/rtl8723au/hal/rtl8723a_bt-coexist.c:3899 bthci_CmdFlowSpecModify() warn: buffer overflow &#39;pHciCmd-&gt;Data&#39; 2 &lt;= 18
+/home/finger/rtl8723au/hal/rtl8723a_bt-coexist.c:4151 bthci_CmdSetRSSIValue() error: buffer overflow &#39;pHciCmd-&gt;Data&#39; 2 &lt;= 2
+/home/finger/rtl8723au/hal/rtl8723a_bt-coexist.c:4151 bthci_CmdSetRSSIValue() error: buffer overflow &#39;pHciCmd-&gt;Data&#39; 2 &lt;= 2
+/home/finger/rtl8723au/hal/rtl8723a_bt-coexist.c:5758 bthci_UseFakeData() warn: buffer overflow &#39;pHciCmd-&gt;Data&#39; 2 &lt;= 17
+/home/finger/rtl8723au/hal/rtl8723a_bt-coexist.c:5764 bthci_UseFakeData() warn: buffer overflow &#39;pHciCmd-&gt;Data&#39; 2 &lt;= 2
+/home/finger/rtl8723au/hal/rtl8723a_bt-coexist.c:5765 bthci_UseFakeData() warn: buffer overflow &#39;pHciCmd-&gt;Data&#39; 2 &lt;= 18
+
+An array in one of the structs was of size 2, and should have been at least 19. It is now 20.
+
+Signed-off-by: Larry Finger &lt;Larry.Finger@lwfinger.net&gt;">rtl8723au: Fix Smatch warnings in hal/rtl8723a_bt-coexist.c</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" data-title-format="YYYY-MM-DD HH:mm:ss" datetime="2014-01-09T13:56:59-08:00" title="2014-01-09 13:56:59">January 09, 2014</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-directory"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/lwfinger/rtl8723au/tree/master/os_dep" class="js-directory-link" id="5be9964b63f7cb01b004cf6659f6c27f-a56ac39f9ea52179448701b742522049ad6fd55e" title="os_dep">os_dep</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/lwfinger/rtl8723au/commit/7de6f8d924217c85de1868083800b072a78388a9" class="message" data-pjax="true" title="rtl8723au: Remove all code associated with CONFIG_ANDROID
+
+Signed-off-by: Larry Finger &lt;Larry.Finger@lwfinger.net&gt;">rtl8723au: Remove all code associated with CONFIG_ANDROID</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" data-title-format="YYYY-MM-DD HH:mm:ss" datetime="2013-12-16T14:44:23-08:00" title="2013-12-16 14:44:23">December 16, 2013</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/lwfinger/rtl8723au/blob/master/.gitignore" class="js-directory-link" id="a084b794bc0759e7a6b77810e01874f2-3b8b9b33be380b75f9a4d19a4680723f3febfce7" title=".gitignore">.gitignore</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/lwfinger/rtl8723au/commit/232b4c10727853e5a0213abbfe60447fef729554" class="message" data-pjax="true" title="First commit">First commit</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" data-title-format="YYYY-MM-DD HH:mm:ss" datetime="2013-03-29T08:35:03-07:00" title="2013-03-29 08:35:03">March 29, 2013</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/lwfinger/rtl8723au/blob/master/Makefile" class="js-directory-link" id="b67911656ef5d18c4ae36cb6741b7965-4a68178556bb7b4aab388e5e05e895a9cdefe87a" title="Makefile">Makefile</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/lwfinger/rtl8723au/commit/5a8bba74a18149230e21e352eb6b07db2cd726d9" class="message" data-pjax="true" title="Do not try to compile HalPhy.o - it no longer exists
+
+Signed-off-by: Jes Sorensen &lt;Jes.Sorensen@redhat.com&gt;">Do not try to compile HalPhy.o - it no longer exists</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" data-title-format="YYYY-MM-DD HH:mm:ss" datetime="2013-12-06T09:54:46-08:00" title="2013-12-06 09:54:46">December 06, 2013</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/lwfinger/rtl8723au/blob/master/README.dkms" class="js-directory-link" id="75c4e7ae1d269a1558fbffb357161d4c-f874a951c175e63dfe9b0c4af35c6fa72a94fba7" title="README.dkms">README.dkms</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/lwfinger/rtl8723au/commit/c31be1d08a0fad7d3c7b74d7f6743ef16beef8b3" class="message" data-pjax="true" title="DKMS support
+
+Define CONFIG_RTL8723AS-VAU in the Makefile when KERNELRELEASE
+is defined (as when compiling under DKMS). Add a dkms.conf file
+and README.dkms with instructions on how to make it work.">DKMS support</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" data-title-format="YYYY-MM-DD HH:mm:ss" datetime="2013-10-13T19:10:19-07:00" title="2013-10-13 19:10:19">October 13, 2013</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/lwfinger/rtl8723au/blob/master/README.md" class="js-directory-link" id="04c6e90faac2675aa89e2176d2eec7d8-574d530dcfab07b88ad0a8966153ec4480a65fe4" title="README.md">README.md</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/lwfinger/rtl8723au/commit/c006177a5f82fd43688915c14b334d24da7b7675" class="message" data-pjax="true" title="rtl8723au: Modify README.md
+
+Signed-off-by: Larry Finger &lt;Larry.Finger@lwfinger.net&gt;">rtl8723au: Modify README.md</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" data-title-format="YYYY-MM-DD HH:mm:ss" datetime="2013-11-12T14:08:17-08:00" title="2013-11-12 14:08:17">November 12, 2013</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/lwfinger/rtl8723au/blob/master/dkms.conf" class="js-directory-link" id="7d1c6b8b46764896fc1319c99eac63ba-fad620344a127db88506b642abf31c9a1ebc2912" title="dkms.conf">dkms.conf</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/lwfinger/rtl8723au/commit/a1c3032d930e2a506930d4b53913a96fee980fdc" class="message" data-pjax="true" title="rtl8723au: Fix build problem with dkms
+
+It has been reported that under Ubuntu 13.10 (at least), the 8723au module
+won&#39;t auto-build correctly with new kernels. The error can be seen explicitly
+with dkms status, which gives:
+dkms.conf: Error! No &#39;BUILT_MODULE_NAME&#39; directive
+
+Making BUILT_MODULE_NAME the same as BUILD_MODULE_NAME fixes the problem.
+
+Signed-off-by: Larry Finger &lt;Larry.Finger@lwfinger.net&gt;">rtl8723au: Fix build problem with dkms</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" data-title-format="YYYY-MM-DD HH:mm:ss" datetime="2014-02-02T22:12:35-08:00" title="2014-02-02 22:12:35">February 02, 2014</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/lwfinger/rtl8723au/blob/master/rtl8723aufw_A.bin" class="js-directory-link" id="da3c8966b4799cd107b0120a7ce228fb-7accded754a7c114db71870728b124ad7ddb25b9" title="rtl8723aufw_A.bin">rtl8723aufw_A.bin</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/lwfinger/rtl8723au/commit/2d742a0daee52aea376067a02448533579c0f54a" class="message" data-pjax="true" title="rtl8723au: Add firmware files to repo
+
+These data were extracted from extended data statements in the code.
+
+Signed-off-by: Larry Finger &lt;Larry.Finger@lwfinger.net&gt;">rtl8723au: Add firmware files to repo</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" data-title-format="YYYY-MM-DD HH:mm:ss" datetime="2013-12-04T18:31:41-08:00" title="2013-12-04 18:31:41">December 04, 2013</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/lwfinger/rtl8723au/blob/master/rtl8723aufw_B.bin" class="js-directory-link" id="b4b639946a125734a2a63bc073ecc5fb-5c37400025210a6da3a2bc4c8cae3f1481ed2a3b" title="rtl8723aufw_B.bin">rtl8723aufw_B.bin</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/lwfinger/rtl8723au/commit/2d742a0daee52aea376067a02448533579c0f54a" class="message" data-pjax="true" title="rtl8723au: Add firmware files to repo
+
+These data were extracted from extended data statements in the code.
+
+Signed-off-by: Larry Finger &lt;Larry.Finger@lwfinger.net&gt;">rtl8723au: Add firmware files to repo</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" data-title-format="YYYY-MM-DD HH:mm:ss" datetime="2013-12-04T18:31:41-08:00" title="2013-12-04 18:31:41">December 04, 2013</time></span></td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="Octocat-spinner-32" class="spinner" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/lwfinger/rtl8723au/blob/master/rtl8723aufw_B_NoBT.bin" class="js-directory-link" id="c66a5aefb8de73aefa9aa7d31bf6de78-8e9952cbe58ca69bbf11acce688c75aa6ee960c0" title="rtl8723aufw_B_NoBT.bin">rtl8723aufw_B_NoBT.bin</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target"><a href="/lwfinger/rtl8723au/commit/2d742a0daee52aea376067a02448533579c0f54a" class="message" data-pjax="true" title="rtl8723au: Add firmware files to repo
+
+These data were extracted from extended data statements in the code.
+
+Signed-off-by: Larry Finger &lt;Larry.Finger@lwfinger.net&gt;">rtl8723au: Add firmware files to repo</a></span>
+      </td>
+      <td class="age"><span class="css-truncate css-truncate-target"><time class="js-relative-date" data-title-format="YYYY-MM-DD HH:mm:ss" datetime="2013-12-04T18:31:41-08:00" title="2013-12-04 18:31:41">December 04, 2013</time></span></td>
+    </tr>
+</tbody>
+
+  </table>
+</div>
+
+  <div id="readme" class="clearfix announce instapaper_body md">
+    <span class="name">
+      <span class="octicon octicon-book"></span>
+      README.md
+    </span>
+
+    <article class="markdown-body entry-content" itemprop="mainContentOfPage"><h2>
+<a name="installing" class="anchor" href="#installing"><span class="octicon octicon-link"></span></a>Installing:</h2>
+
+<p>To get this file, you should have done
+    git clone <a href="https://github.com/lwfinger/rtl8723au.git">https://github.com/lwfinger/rtl8723au.git</a></p>
+
+<p>To install, you need to run the following commands</p>
+
+<pre><code>cd rtl8723au/
+make
+sudo make install
+sudo modprobe 8723au
+</code></pre>
+
+<p>From: <a href="http://askubuntu.com/a/358479/157129">askubuntu</a></p></article>
+  </div>
+
+
+        </div>
+
+      </div><!-- /.repo-container -->
+      <div class="modal-backdrop"></div>
+    </div><!-- /.container -->
+  </div><!-- /.site -->
+
+
+    </div><!-- /.wrapper -->
+
+      <div class="container">
+  <div class="site-footer">
+    <ul class="site-footer-links right">
+      <li><a href="https://status.github.com/">Status</a></li>
+      <li><a href="http://developer.github.com">API</a></li>
+      <li><a href="http://training.github.com">Training</a></li>
+      <li><a href="http://shop.github.com">Shop</a></li>
+      <li><a href="/blog">Blog</a></li>
+      <li><a href="/about">About</a></li>
+
+    </ul>
+
+    <a href="/">
+      <span class="mega-octicon octicon-mark-github" title="GitHub"></span>
+    </a>
+
+    <ul class="site-footer-links">
+      <li>&copy; 2014 <span title="0.03108s from github-fe117-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+        <li><a href="/site/terms">Terms</a></li>
+        <li><a href="/site/privacy">Privacy</a></li>
+        <li><a href="/security">Security</a></li>
+        <li><a href="/contact">Contact</a></li>
+    </ul>
+  </div><!-- /.site-footer -->
+</div><!-- /.container -->
+
+
+    <div class="fullscreen-overlay js-fullscreen-overlay" id="fullscreen_overlay">
+  <div class="fullscreen-container js-fullscreen-container">
+    <div class="textarea-wrap">
+      <textarea name="fullscreen-contents" id="fullscreen-contents" class="js-fullscreen-contents" placeholder="" data-suggester="fullscreen_suggester"></textarea>
+    </div>
+  </div>
+  <div class="fullscreen-sidebar">
+    <a href="#" class="exit-fullscreen js-exit-fullscreen tooltipped leftwards" aria-label="Exit Zen Mode">
+      <span class="mega-octicon octicon-screen-normal"></span>
+    </a>
+    <a href="#" class="theme-switcher js-theme-switcher tooltipped leftwards"
+      aria-label="Switch themes">
+      <span class="octicon octicon-color-mode"></span>
+    </a>
+  </div>
+</div>
+
+
+
+    <div id="ajax-error-message" class="flash flash-error">
+      <span class="octicon octicon-alert"></span>
+      <a href="#" class="octicon octicon-remove-close close js-ajax-error-dismiss"></a>
+      Something went wrong with that request. Please try again.
+    </div>
+
+  </body>
+</html>
+
