@@ -8,7 +8,7 @@ pkgdesc="Detecting natural selection from population-based genetic data"
 arch=('i686' 'x86_64')
 url="http://cmpg.unibe.ch/software/BayeScan/index.html"
 license=('GPL3')
-depends=()
+depends=('gcc-libs')
 source=("http://cmpg.unibe.ch/software/BayeScan/files/${_up_pkgname}${pkgver}.zip")
 md5sums=('826138562f4c944e5649b65ca47624ec')
 
