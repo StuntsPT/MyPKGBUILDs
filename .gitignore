@@ -2,6 +2,7 @@ pkg/
 src/
 *.tgz
 *.tar.gz
+*.zip
 *.xz
 *.sig
 *.swp
