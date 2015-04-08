@@ -1,12 +1,12 @@
 # Maintainer: Stunts <f DOT pinamartins AT gmail DOT com>
 pkgname=instruct
 _up_pkgname=InStruct
-pkgver=2.3.4
-pkgrel=3
+pkgver=20090404
+pkgrel=1
 pkgdesc="Program for using multi-locus genotype data to investigate population structure, and self-fertilization rates."
 arch=('i686' 'x86_64')
 url="http://cbsuapps.tc.cornell.edu/InStruct.aspx"
-license=('GPL')
+license=('Non-commercial')
 
 source=(ftp://cbsuftp.tc.cornell.edu/BioHPC/var/${_up_pkgname}_sources.zip)
 md5sums=('644642a1a732fcdf00647b784f468b75')
