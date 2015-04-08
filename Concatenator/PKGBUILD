@@ -19,6 +19,6 @@ package() {
   sed -i 's/Concatenator.dat/\/usr\/share\/doc\/concatenator\/Concatenator.dat/g' Concatenator.pl
   sed -i 's/FNF.dat/\/usr\/share\/doc\/concatenator\/FNF.dat/g' Concatenator.pl
   install -D -m 755 Concatenator.pl ${pkgdir}/usr/bin/concatenator
-  install -D -m 644 license.txt ${pkgdir}/usr/share/licences/${pkgname}/license.txt
+  install -D -m 644 license.txt ${pkgdir}/usr/share/licenses/${pkgname}/license.txt
   install -D *.dat ${pkgdir}/usr/share/doc/concatenator
 }
