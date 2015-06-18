@@ -1,5 +1,5 @@
-# Maintainer: bmpvieira <mail@bmpvieira.com>
-# Contributor: Stunts <f.pinamartins@gmail.com>
+# Maintainer: Stunts <f.pinamartins@gmail.com>
+# Contributor: bmpvieira <mail@bmpvieira.com>
 
 pkgname=genepop
 _uppkgname=Genepop
