@@ -9,7 +9,7 @@ arch=('i686' 'x86_64')
 url="http://launchpad.net/eee-control/"
 license=('BSDL')
 backup=('etc/eee-control.conf')
-depends=('python2' 'dbus-python' 'gconf' 'python-wnck' 'pygtk' 'python-notify' 'acpid' 'consolekit' 'python2-gconf')
+depends=('python2' 'dbus-python' 'gconf' 'python2-wnck' 'pygtk' 'python2-notify2' 'acpid' 'python2-gconf')
 makedepends=('bzr')
 
 source=(eee-control-daemon.rc
@@ -37,12 +37,16 @@ build() {
 
   rm -rf "${_bzrmod}-build"
   cp -r "${_bzrmod}" "${_bzrmod}-build"
+}
+
+package(){
+  cd ${srcdir}
   cd "${_bzrmod}-build"
-  
   python2 setup.py install --prefix=$pkgdir/usr
 
   # Some patches for compatibility in arch
   cd $pkgdir
+  sed -i 's/import pynotify/import notify2 as pynotify/' usr/lib/python2.7/site-packages/EeeControl/tray.py
   patch -Np1 < $srcdir/../eee-control-daemon.diff
   patch -Np1 < $srcdir/../eee-control-daemon.conf.diff
   cd $srcdir
