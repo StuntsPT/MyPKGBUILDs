@@ -1,0 +1,19 @@
+# Maintainer: Phil Schaf <flying-sheep@web.de>
+_name=aiohttp
+pkgname=python-aiohttp
+pkgver=0.17.3
+pkgrel=1
+pkgdesc='http client/server for asyncio'
+arch=('any')
+url="https://github.com/KeepSafe/${_name}"
+license=('Apache')
+depends=('python-chardet' 'python-asyncio')
+makedepends=('python-setuptools')
+source=("https://github.com/KeepSafe/${_name}/archive/v${pkgver}.tar.gz")
+md5sums=('26c5089a3162e5d3558896fe47b2ce8f')
+
+package() {
+	cd "${srcdir}/${_name}-${pkgver}"
+	python setup.py build
+	python setup.py install --root="${pkgdir}"
+}
