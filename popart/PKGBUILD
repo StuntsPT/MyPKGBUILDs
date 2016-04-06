@@ -1,0 +1,28 @@
+# Maintainer: Stunts <f.pinamartins@gmail.com>
+pkgname=popart
+pkgver=1.7
+pkgrel=1
+pkgdesc="Software to understand evolutionary relationships among populations"
+arch=('i686' 'x86_64')
+license=('GPL')
+url="http://popart.otago.ac.nz"
+depends=('qt4' 'lpsolve' 'libmarble4')
+source=(http://popart.otago.ac.nz/software/${pkgname}-${pkgver}.tar.bz2)
+md5sums=('0e053c1e531721a5267e49246f92477e')
+
+prepare() {
+  cd ${srcdir}/${pkgname}-${pkgver}/src
+  sed -i 's|PREMARBLEDIR=/usr/include/marble|PREMARBLEDIR=/usr/include/marble4|g' popart.pro
+  sed -i 's|QT += svg|&\nQMAKE_CXXFLAGS += -std=gnu++11|' popart.pro
+
+}
+
+build() {
+  cd ${srcdir}/${pkgname}-${pkgver}/src
+  qmake-qt4
+  make
+}
+
+package() {
+    make install
+}
