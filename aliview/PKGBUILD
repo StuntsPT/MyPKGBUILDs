@@ -1,0 +1,32 @@
+# Maintainer:  Stunts <f.pinamartins@gmail.com>
+pkgname=aliview
+_up_pkgname=AliView
+pkgver=1.25
+pkgrel=1
+pkgdesc="Lightweight software for aligning viewing and editing dna/aminoacid sequences"
+arch=(any)
+url="http://www.ormbunkar.se/aliview"
+license=('GPL3')
+depends=('java-runtime')
+makedepends=('makeself' 'maven')
+source=(https://github.com/AliView/AliView/archive/v${pkgver}.tar.gz)
+sha256sums=('03742d47da6097be29009f980b63418c30d62e7e2a895b8a4a2d25338e47d394')
+
+
+build() {
+  cd ${srcdir}/${_up_pkgname}-${pkgver}
+  sed -i 's|<source>1.5</source>|<source>1.6</source>|' pom.xml
+  sed -i 's|<target>1.5</target>|<target>1.6</target>|' pom.xml
+  mvn clean compile install package
+  ./make_installer_linux.sh
+  #sed -i 's|jarfile="aliview.jar"|jarfile="/usr/lib/aliview.jar"|' target/linux-version-${pkgver}/${pkgname}/aliview
+}
+
+
+package() {
+  cd ${srcdir}/${_up_pkgname}-${pkgver}/target/linux-version-${pkgver}/${pkgname}
+  install -D -m 755 ${pkgname} ${pkgdir}/usr/bin/aliview
+  install -D -m 755 ${pkgname}.jar ${pkgdir}/usr/share/aliview/${pkgname}.jar
+  install -D -m 644 aliicon_128x128.png ${pkgdir}/usr/share/icons/aliicon.png
+  install -D -m 755 ${_up_pkgname}.desktop ${pkgdir}/usr/share/applications/${_up_pkgname}.desktop
+}
