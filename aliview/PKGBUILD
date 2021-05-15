@@ -1,7 +1,7 @@
 # Maintainer:  Stunts <f.pinamartins@gmail.com>
 pkgname=aliview
 _up_pkgname=AliView
-pkgver=1.25
+pkgver=1.27
 pkgrel=1
 pkgdesc="Lightweight software for aligning viewing and editing dna/aminoacid sequences"
 arch=(any)
@@ -10,7 +10,7 @@ license=('GPL3')
 depends=('java-runtime')
 makedepends=('makeself' 'maven')
 source=(https://github.com/AliView/AliView/archive/v${pkgver}.tar.gz)
-sha256sums=('03742d47da6097be29009f980b63418c30d62e7e2a895b8a4a2d25338e47d394')
+sha256sums=('6b19acd2c7b7db48543d55c24006f38fadb15f45c54bb9c7b9f3043a829d9df6')
 
 
 build() {
