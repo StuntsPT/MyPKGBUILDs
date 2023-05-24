@@ -10,7 +10,7 @@ license=('None')
 depends=()
 makedepends=('git')
 source=('git+https://github.com/Oscillope/sbx-h6-rgb.git' 'sbx-h6-off.service')
-sha256sums=('SKIP' 'bce786549125343cd167faaa3d44f3595b5bfc2be49c3d83045a39a2b92a5488')
+sha256sums=('SKIP' 'd5478d5fb69a17b1bb4e72ef18f207ce2ddf30df6a08df410422f8d0e2f4227c')
 
 pkgver() {
   cd ${srcdir}/${_pkgname}
