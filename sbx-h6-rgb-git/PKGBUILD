@@ -9,8 +9,8 @@ url="https://github.com/Oscillope/sbx-h6-rgb"
 license=('None')
 depends=()
 makedepends=('git')
-source=('git+https://github.com/Oscillope/sbx-h6-rgb.git')
-md5sums=('SKIP')
+source=('git+https://github.com/Oscillope/sbx-h6-rgb.git' 'sbx-h6-off.service')
+sha256sums=('SKIP' 'bce786549125343cd167faaa3d44f3595b5bfc2be49c3d83045a39a2b92a5488')
 
 pkgver() {
   cd ${srcdir}/${_pkgname}
@@ -23,6 +23,7 @@ build() {
 }
 
 package() {
+  install -D sbx-h6-off.service ${pkgdir}/usr/lib/systemd/system/sbx-h6-off.service
   cd ${srcdir}/${_pkgname}
   install -D sbx-h6-ctl ${pkgdir}/usr/bin/sbx-h6-ctl
 }
