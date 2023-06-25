@@ -2,15 +2,15 @@
 _pkgname=sbx-h6-rgb
 pkgname=${_pkgname}-git
 pkgver=r12.edbf86a
-pkgrel=1
+pkgrel=2
 pkgdesc=" Creative SoundblasterX RGB LED setter"
 arch=(any)
 url="https://github.com/Oscillope/sbx-h6-rgb"
-license=('None')
+license=('GPL3')
 depends=()
 makedepends=('git')
-source=('git+https://github.com/Oscillope/sbx-h6-rgb.git' 'sbx-h6-off.service')
-sha256sums=('SKIP' 'd5478d5fb69a17b1bb4e72ef18f207ce2ddf30df6a08df410422f8d0e2f4227c')
+source=('git+https://github.com/Oscillope/sbx-h6-rgb.git' 'sbx-h6.service' '99-sbx-h6-systemd.rules')
+sha256sums=('SKIP' 'd5478d5fb69a17b1bb4e72ef18f207ce2ddf30df6a08df410422f8d0e2f4227c' 'f3ca827ae52929a00390862578a0530daa598f5d309963015c45680afc7db24b')
 
 pkgver() {
   cd ${srcdir}/${_pkgname}
@@ -23,7 +23,8 @@ build() {
 }
 
 package() {
-  install -D sbx-h6-off.service ${pkgdir}/usr/lib/systemd/system/sbx-h6-off.service
+  install -D sbx-h6.service ${pkgdir}/usr/lib/systemd/system/sbx-h6.service
+  install -D 99-sbx-h6-systemd.rules ${pkgdir}/etc/udev/rules.d/99-sbx-h6-systemd.rules
   cd ${srcdir}/${_pkgname}
   install -D sbx-h6-ctl ${pkgdir}/usr/bin/sbx-h6-ctl
 }
