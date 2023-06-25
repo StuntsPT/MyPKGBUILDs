@@ -1,0 +1,1 @@
+ACTION=="add", ATTR{idVendor}=="041e", ATTR{idProduct}=="3255", RUN+="/usr/bin/systemctl --no-block restart sbx-h6.service"
